@@ -1,0 +1,102 @@
+/* Settings Screen Styles */
+.settings-header {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--card-bg);
+}
+
+.settings-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-title h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.settings-section {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--card-bg);
+}
+
+.settings-section h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+.settings-options {
+    display: flex;
+    gap: 12px;
+}
+
+.settings-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--input-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.settings-button:hover {
+    background: var(--hover-color);
+    border-color: var(--meta-color);
+}
+
+.settings-button svg {
+    color: var(--meta-color);
+}
+
+.settings-button.active {
+    background: var(--hover-color);
+    border-color: var(--text-color);
+    color: var(--text-color);
+}
+
+.settings-button.active svg {
+    color: var(--text-color);
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--meta-color);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.icon-button:hover {
+    background: var(--hover-color);
+    color: var(--text-color);
+}
+
+/* Adding some additional styles for better UX */
+.settings-container {
+    background: var(--bg-color);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.settings-section:last-child {
+    border-bottom: none;
+}
+
+/* Add subtle transitions */
+.settings-button, 
+.icon-button,
+.settings-button svg {
+    transition: all 0.2s ease;
+}

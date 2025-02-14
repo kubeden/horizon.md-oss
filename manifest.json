@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "name": "Horizon.md — Your thoughts, organized",
+    "version": "0.1",
+    "description": "Capture and save highlighted text as thought notes.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus",
+        "sidePanel",
+        "identity",
+        "tabs",
+        "windows",
+        "cookies",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "background": {
+        "service_worker": "dist/background-loader.bundle.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "dist/content.bundle.js"
+            ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "dist/assets/js/youtube-highlighter.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "images/*",
+                "assets/*",
+                "dist/*"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
