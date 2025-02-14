@@ -6,6 +6,14 @@ Horizon.md is a browser extension and a future web platform that lets you highli
 
 This is the Alpha release of Horizon, pre-platform. Follow the progress on [x.com/@kuberdenis](x.com/@kuberdenis), which is my personal profile. I will soon create an official account.
 
+## Prerequisites
+
+On my machine it works . . . with:
+
+- nodejs v23.1.0
+- npm v10.9.0
+- chrome v132.0.6834.160
+
 ## Installation
 
 Install the required libraries for webpack and build.
