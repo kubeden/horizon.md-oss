@@ -1,4 +1,4 @@
-# <img src="./.git-assets/img/logo.png" style="border: 1px solid Gainsboro; width: 15px;"> Horizon.md (Alpha)
+# <img src="./.git-assets/img/logo.png" style="border: 1px solid Gainsboro; width: 25px;"> Horizon.md (Alpha)
 
 Horizon.md is a browser extension and a web platform that lets you highlight and note any text or video on the internet.
 
