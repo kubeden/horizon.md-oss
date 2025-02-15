@@ -23,17 +23,16 @@ npm install
 npm run build
 ```
 
-I. Open Chrome -> Extensions -> Toggle `Developer Mode`:
-
-<img src="./.git-assets/img/1.png" style="border: 3px solid Gainsboro; border-radius: 15px;">
-
-II. Click `Load Unpacked` -> Select The Directory
-
-<img src="./.git-assets/img/2.png" style="border: 3px solid Gainsboro; border-radius: 15px;">
-
-III. Start Using
-
-<img src="./.git-assets/img/3.png" style="border: 3px solid Gainsboro; border-radius: 15px;">
+<div style="display: grid; grid-template-columns: auto auto; grid-gap: 30px 30px;">
+    <div>
+        <p style="padding-bottom: 10px;">I. Open Chrome -> Extensions -> Toggle `Developer Mode`:</p>
+        <img src="./.git-assets/img/1.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
+    </div>
+    <div>
+        <p style="padding-bottom: 10px;">II. Click `Load Unpacked` -> Select The Directory</p>
+        <img src="./.git-assets/img/2.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
+    </div>
+</div>
 
 ## Usage Guide
 
