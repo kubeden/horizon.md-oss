@@ -37,11 +37,11 @@ npm run build
 <table>
   <tr>
     <td>
-        <p style="padding-bottom: 10px;">I. Open Chrome -> Extensions -> Toggle `Developer Mode`:</p>
+        <p style="padding-bottom: 10px;">Open Chrome -> Extensions -> Toggle `Developer Mode`:</p>
         <img src="./.git-assets/img/1.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
     </td>
     <td>
-        <p style="padding-bottom: 10px;">II. Click `Load Unpacked` -> Select The Directory</p>
+        <p style="padding-bottom: 10px;">Click `Load Unpacked` -> Select The Directory</p>
         <img src="./.git-assets/img/2.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
     </td>
    </tr> 
