@@ -22,7 +22,7 @@ Install the required libraries for webpack and build.
 npm install
 npm run build
 ```
-
+<!-- 
 <div style="display: grid; grid-template-columns: auto auto; grid-gap: 30px 30px;">
     <div>
         <p style="padding-bottom: 10px;">I. Open Chrome -> Extensions -> Toggle `Developer Mode`:</p>
@@ -32,7 +32,21 @@ npm run build
         <p style="padding-bottom: 10px;">II. Click `Load Unpacked` -> Select The Directory</p>
         <img src="./.git-assets/img/2.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
     </div>
-</div>
+</div> -->
+
+<table>
+  <tr>
+    <td>
+        <p style="padding-bottom: 10px;">I. Open Chrome -> Extensions -> Toggle `Developer Mode`:</p>
+        <img src="./.git-assets/img/1.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
+    </td>
+    <td>
+        <p style="padding-bottom: 10px;">II. Click `Load Unpacked` -> Select The Directory</p>
+        <img src="./.git-assets/img/2.png" style="border: 2px solid Gainsboro; border-radius: 10px;">
+    </td>
+   </tr> 
+  </tr>
+</table>
 
 ## Usage Guide
 
